@@ -1,13 +1,18 @@
 <template>
-
+  <span>Hello {{name}} </span>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
 
 export default {
   name: 'App',
-  
+  data(){
+    return{
+      name:"Lucy!",
+
+    }
+  }
 }
 </script>
 
