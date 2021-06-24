@@ -1,6 +1,7 @@
 <template>
   <span v-text="greet"></span><br>
-  <span>Hello {{name}} </span>
+  <span>Hello {{name}} </span><br>
+  <div>Please would you have a {{offering}} or drinks ?</div>
 
 </template>
 
@@ -13,6 +14,8 @@ export default {
     return{
       greet: 'Good morning...!',
       name: "Lucy !",
+      offering: "coffee",
+      drinks: "soft drinks",
 
     }
   }
