@@ -1,5 +1,7 @@
 <template>
+  <span v-text="greet"></span><br>
   <span>Hello {{name}} </span>
+
 </template>
 
 <script>
@@ -9,7 +11,8 @@ export default {
   name: 'App',
   data(){
     return{
-      name:"Lucy!",
+      greet: 'Good morning...!',
+      name: "Lucy !",
 
     }
   }
@@ -25,4 +28,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
