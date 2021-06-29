@@ -3,7 +3,8 @@
   <span>Hello {{name}} </span><br>
   <div>Please would you have a {{offering}} or drinks ?</div>
   <span v-html="text"></span>
-  <img src="./assets/logo.png" alt="Vuejs pic">
+  <img src="./assets/logo.png" alt="Vuejs pic">,<br>
+  <a :href="link">Google</a>
 
 </template>
 
@@ -18,7 +19,7 @@ export default {
       offering: "coffee",
       drinks: "soft drinks",
       text:'<h1>Vue3 Tutorials</h1><p>The core library is mainly focused on UI</p>',
-
+      link: "https://www.google.com/",
 
     }
   }
