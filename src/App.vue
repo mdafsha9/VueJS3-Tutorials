@@ -3,12 +3,12 @@
   <span>Hello {{name}} </span><br>
   <div>Please would you have a {{offering}} or drinks ?</div>
   <span v-html="text"></span>
-  <img :src="image" alt="Vuejs pic">
+  <img src="./assets/logo.png" alt="Vuejs pic">
 
 </template>
 
 <script>
-import image from "../assets/logo.png"
+
 export default {
   name: 'App',
   data(){
@@ -18,7 +18,7 @@ export default {
       offering: "coffee",
       drinks: "soft drinks",
       text:'<h1>Vue3 Tutorials</h1><p>The core library is mainly focused on UI</p>',
-      image: image ,
+
 
     }
   }
