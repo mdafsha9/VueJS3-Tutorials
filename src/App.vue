@@ -21,7 +21,7 @@ export default {
       drinks: "soft drinks",
       text:'<h1>Vue3 Tutorials</h1><p>The core library is mainly focused on UI</p>',
       link: "https://www.google.com/",
-      isDisabled:true,
+      isDisabled: false,
 
 
     }
