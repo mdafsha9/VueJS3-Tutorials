@@ -6,7 +6,8 @@
   <img src="./assets/logo.png" alt="Vuejs pic">,<br>
   <a :href="link">Google</a><br>
   <button v-bind:disabled="isDisabled" onclick="window.alert('You have been hacked!')">Win a prize!</button>
-  <h2 v-bind:Id="headingId">Heading</h2>
+  <h2 v-bind:Id="headingId">This is a Id attribute</h2>
+  <p v-bind:class="status">This is a class attribute</p>
 
 </template>
 
@@ -24,6 +25,7 @@ export default {
       link: "https://www.google.com/",
       isDisabled: false,
       headingId:"heading",
+      status: "danger",
 
 
     }
@@ -39,6 +41,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#heading{
+color:pink;
+}
+.danger{
+text-decoration:underline;
 }
 
 </style>
