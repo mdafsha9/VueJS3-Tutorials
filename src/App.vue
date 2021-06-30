@@ -6,6 +6,7 @@
   <img src="./assets/logo.png" alt="Vuejs pic">,<br>
   <a :href="link">Google</a><br>
   <button v-bind:disabled="isDisabled" onclick="window.alert('You have been hacked!')">Win a prize!</button>
+  <h2 v-bind:Id="headingId">Heading</h2>
 
 </template>
 
@@ -22,6 +23,7 @@ export default {
       text:'<h1>Vue3 Tutorials</h1><p>The core library is mainly focused on UI</p>',
       link: "https://www.google.com/",
       isDisabled: false,
+      headingId:"heading",
 
 
     }
