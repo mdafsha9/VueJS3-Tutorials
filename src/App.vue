@@ -2,6 +2,7 @@
   <span>{{greet}} {{name}}</span><br>
   <span v-text="framework"></span>
   <div v-html="inner"></div>
+  <span v-bind:id="attributeId">Binding attributes</span>
 </template>
 
 <script>
@@ -13,8 +14,8 @@ export default {
       greet:"Hello",
       name:'Afsha',
       framework:'Vue3 Project!',
-      inner:'<b>Welcome to Vue3</b><i>Vue is a progressive framework. It is used to build dynamic UI and SPA</i>',
-
+      inner:'<b>Welcome to Vue3</b><br><i>Vue is a progressive framework. It is used to build dynamic UI and SPA</i>',
+      attributeId: 'attribute',
 
     }
   }
@@ -29,6 +30,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#attribute{
+color:HotPink;
 }
 
 
