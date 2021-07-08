@@ -1,5 +1,7 @@
 <template>
-
+  <p>It's a Static Binding</p>
+  <p>Below name is dynamic binding</p>
+  <span>{{greet}} {{name}}</span>
 
 </template>
 
@@ -9,7 +11,9 @@ export default {
   name: 'App',
   data(){
     return{
-
+      greet:"Hello",
+      name:'Afsha',
+    
 
 
     }
