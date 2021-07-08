@@ -4,6 +4,7 @@
   <div v-html="inner"></div>
   <span v-bind:id="attributeId">Binding attributes</span><br>
   <button v-bind:disabled="isDisabled">Win a prize!</button>
+  <p class="underline">This is a static class binding</p>
 </template>
 
 <script>
@@ -18,6 +19,7 @@ export default {
       inner:'<b>Welcome to Vue3</b><br><i>Vue is a progressive framework. It is used to build dynamic UI and SPA</i>',
       attributeId: 'attribute',
       isDisabled:true,
+      status:'danger',
 
 
 
@@ -37,6 +39,9 @@ export default {
 }
 #attribute{
 color:HotPink;
+}
+.underline{
+text-decoration:underline;
 }
 
 
