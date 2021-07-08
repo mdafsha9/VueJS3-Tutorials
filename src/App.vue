@@ -5,6 +5,7 @@
   <span v-bind:id="attributeId">Binding attributes</span><br>
   <button v-bind:disabled="isDisabled">Win a prize!</button>
   <p class="underline">This is a static class binding</p>
+  <p v-bind:class="status">This is a dynamic class binding</p>
 </template>
 
 <script>
@@ -20,8 +21,6 @@ export default {
       attributeId: 'attribute',
       isDisabled:true,
       status:'danger',
-
-
 
     }
   }
