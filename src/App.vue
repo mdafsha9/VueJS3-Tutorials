@@ -1,6 +1,4 @@
 <template>
-  <p>It's a Static Binding</p>
-  <p>Below are dynamic bindings</p>
   <span>{{greet}} {{name}}</span><br>
   <span v-text="framework"></span>
 
