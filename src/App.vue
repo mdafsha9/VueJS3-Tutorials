@@ -17,7 +17,7 @@ export default {
       framework:'Vue3 Project!',
       inner:'<b>Welcome to Vue3</b><br><i>Vue is a progressive framework. It is used to build dynamic UI and SPA</i>',
       attributeId: 'attribute',
-      isDisabled:false,
+      isDisabled:true,
 
 
 
