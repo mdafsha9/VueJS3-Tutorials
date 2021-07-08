@@ -42,6 +42,9 @@ color:HotPink;
 .underline{
 text-decoration:underline;
 }
+.danger{
+color:red;
+}
 
 
 </style>
