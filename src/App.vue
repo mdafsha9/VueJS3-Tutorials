@@ -1,7 +1,8 @@
 <template>
   <p>It's a Static Binding</p>
-  <p>Below name is dynamic binding</p>
-  <span>{{greet}} {{name}}</span>
+  <p>Below are dynamic bindings</p>
+  <span>{{greet}} {{name}}</span><br>
+  <span v-text="framework"></span>
 
 </template>
 
@@ -13,7 +14,7 @@ export default {
     return{
       greet:"Hello",
       name:'Afsha',
-    
+      framework:'Vue3 Project!',
 
 
     }
