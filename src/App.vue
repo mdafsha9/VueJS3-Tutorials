@@ -1,13 +1,5 @@
 <template>
-  <span v-text="greet"></span><br>
-  <span>Hello {{name}} </span><br>
-  <div>Please would you have a {{offering}} or drinks ?</div>
-  <span v-html="text"></span>
-  <img src="./assets/logo.png" alt="Vuejs pic">,<br>
-  <a :href="link">Google</a><br>
-  <button v-bind:disabled="isDisabled" onclick="window.alert('You have been hacked!')">Win a prize!</button>
-  <h2 v-bind:Id="headingId">This is a Id attribute</h2>
-  <p v-bind:class="status">This is a class attribute</p>
+
 
 </template>
 
@@ -17,15 +9,7 @@ export default {
   name: 'App',
   data(){
     return{
-      greet: 'Good morning...!',
-      name: "Lucy !",
-      offering: "coffee",
-      drinks: "soft drinks",
-      text:'<h1>Vue3 Tutorials</h1><p>The core library is mainly focused on UI</p>',
-      link: "https://www.google.com/",
-      isDisabled: false,
-      headingId:"heading",
-      status: "danger",
+
 
 
     }
@@ -42,11 +26,6 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-#heading{
-color:pink;
-}
-.danger{
-text-decoration:underline;
-}
+
 
 </style>
